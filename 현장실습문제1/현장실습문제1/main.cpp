@@ -2,25 +2,12 @@
 
 int main(void)
 	{
-		//상수 및 변수 선언
-		const char* name =
-			"Sungwook"; // const char *
-		char initial =
-			'S';		//char
-		int age =
-			28;				//int
-		float score =
-			93.5f;		//float
-		unsigned int count =
-			3000000000; //unsigned int
-
-		//출력
 		printf("=== Basic Constants ===\n");
-		printf("Name\t: %s\n\n", name);		// %s
-		printf("initial\t: %c\n\n", initial); // %c
-		printf("Age: %d\n\n", age);		// %d
-		printf("Score\t: %f\n\n", score);		// %f
-		printf("Count\t: %u\n\n", count);		// %u
+		printf("Name\t: %s\n\n", "Sungwook");		// %s
+		printf("initial\t: %c\n\n", 'S'); // %c
+		printf("Age: %d\n\n", 28);		// %d
+		printf("Score\t: %f\n\n", 93.5f);		// %f
+		printf("Count\t: %u\n\n", 3000000000);		// %u
 
 		return 0;
 
