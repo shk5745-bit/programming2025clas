@@ -16,11 +16,11 @@ int main(void)
 
 		//Ãâ·Â
 		printf("=== Basic Constants ===\n");
-		printf("Name\t: %s\n", name);		// %s
-		printf("initial\t: %c\n", initial); // %c
-		printf("Age: %d\n", age);		// %d
-		printf("Score\t: %f\n", score);		// %f
-		printf("Count\t: %u\n", count);		// %u
+		printf("Name\t: %s\n\n", name);		// %s
+		printf("initial\t: %c\n\n", initial); // %c
+		printf("Age: %d\n\n", age);		// %d
+		printf("Score\t: %f\n\n", score);		// %f
+		printf("Count\t: %u\n\n", count);		// %u
 
 		return 0;
 
